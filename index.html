@@ -94,12 +94,12 @@
 
   /* ===== SERVICES ===== */
   .grid-services{display:grid;grid-template-columns:1fr;gap:18px}
-  .card{background:var(--color-card);border:1px solid var(--color-border);border-radius:var(--border-radius);padding:24px;box-shadow:var(--shadow-soft);transition:transform var(--animation-duration) ease, box-shadow var(--animation-duration) ease}
+  .card{background:var(--color-card);border:1px solid var(--color-border);border-radius:var(--border-radius);padding:24px;box-shadow:var(--shadow-soft);transition:transform var(--animation-duration) ease, box-shadow var(--animation-duration) ease;display:flex;flex-direction:column}
   .card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(132,24,67,.12)}
   .card .ic{width:44px;height:44px;color:var(--color-primary);margin-bottom:14px}
   .card h3{font-size:20px;margin-bottom:6px}
   .card p{color:var(--color-muted-foreground);font-size:15px}
-  .card .price{margin-top:14px;font-weight:700;color:var(--color-accent);font-size:18px}
+  .card .price{margin-top:auto;padding-top:14px;font-weight:700;color:var(--color-accent);font-size:18px}
 
   /* ===== MASTERS ===== */
   .grid-masters{display:grid;grid-template-columns:1fr;gap:22px}
